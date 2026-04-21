@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+I write deep dives into technical topics that catch my interest — systems, rendering, game engines, AI, and software design.
+
+Postprocess is my pass on things after running them through my own pipeline.
