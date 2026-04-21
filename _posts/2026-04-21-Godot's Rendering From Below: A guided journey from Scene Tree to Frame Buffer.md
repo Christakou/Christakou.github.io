@@ -1,14 +1,7 @@
 
-  ---
-  title: "Godot's Rendering Pipelien From Below: A guided journey from Scene Tree to Frame Buffer"
-  date: 2026-04-21 12:00:00 +0000
-  categories: [Systems]
-  tags: [tag1, tag2]
-  ---
-
-# Godot's Rendering Pipeline From Below: Scene Tree to Framebuffer
 Most rendering pipeline explanations start from the top: "first you create a mesh, then the engine renders it." This one starts from the bottom -- from the actual source code that transforms your scene tree into pixels. I've been studying Godot's rendering internals as part of learning to contribute to the engine, and what follows are my annotated notes from reading the code that renders every frame.
 This isn't a tutorial. It's a guided walk through the machinery.
+
 ---
 ## The Big Picture
 Every frame, Godot executes roughly this sequence:
